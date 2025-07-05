@@ -21,8 +21,8 @@ Make sure you have the following installed on your system:
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository_url>
-    cd MovieList
+    git clone https://github.com/PixelPlatypus/Door-Movie
+    cd Door-Movie
     ```
 
 2.  **Install dependencies:**
@@ -35,7 +35,7 @@ Make sure you have the following installed on your system:
 
 3.  **Set up environment variables:**
 
-    Create a `.env` file in the root directory of the project and add your Appwrite credentials. You can refer to the existing `.env.example` (if available) or the `lib/appwrite.js` file for required variables.
+    Create a `.env` file in the root directory of the project and add your Appwrite credentials. You can refer to the `lib/appwrite.js` file for required variables.
 
     ```
     APPWRITE_ENDPOINT=your_appwrite_endpoint
